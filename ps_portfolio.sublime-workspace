@@ -1,0 +1,717 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cur",
+				"cur:d	cursor:default"
+			],
+			[
+				"detec",
+				"detectInterval"
+			],
+			[
+				"tray",
+				"trayTotalPercent"
+			],
+			[
+				"backgoun",
+				"background-image"
+			],
+			[
+				"conver",
+				"convertHappyMealToTrayItem"
+			],
+			[
+				"repe",
+				"repeat-y"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"trayTotal",
+				"trayTotalIndex"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"pos",
+				"pos:r	position:relative"
+			],
+			[
+				"ingred",
+				"ingredientsOpen"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"webkit-column",
+				"webkit-column-count"
+			],
+			[
+				"d",
+				"d:b	display:block"
+			],
+			[
+				"fl",
+				"fl:l	float:left"
+			],
+			[
+				"position",
+				"positionDetect"
+			],
+			[
+				"bdrs",
+				"bdrs-n	border-right-style: none;"
+			],
+			[
+				"docume",
+				"documentReady"
+			],
+			[
+				"main",
+				"main_navigation"
+			],
+			[
+				"back",
+				"background"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4558,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 8697,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 393,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Enable Package"
+			],
+			[
+				"enale",
+				"Package Control: Enable Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"alignment",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 462.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/psham/Personal/Portfolio/img/ps_face.png",
+		"/Users/psham/Personal/Portfolio/ps_portfolio.sublime-project",
+		"/Users/psham/Personal/Portfolio/fonts",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/product-page.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_side-nav.html",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_side-nav.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/big_mac.html",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/controllers/main.js",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/_mcd-framework-modify.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/directives/side-nav.js",
+		"/Users/psham/Projects/mcd-nutrition/app/views/prodDet.html",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_list-menu-item.html",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_ingredients.html",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_menu-item-more-info.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_list-tray-item.html",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/directives/list-tray-item.js",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/services/menu-item-service.js",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/directives/list-menu-item.js",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_search-bar.html",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_tray-clear-warning.html",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/directives/coachmarks.js",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_menu-header.html.orig",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/directives/search-clear.js",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_search-clear.html",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_coachmarks.html",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_list-menu-item-added-to-tray.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_list-menu-item-added-to-tray.html",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/directives/menu-header.js",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/directives/list-happymeal-item.js",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_list-happymeal-item.html",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_menu-item-happymeal.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/app.js",
+		"/Users/psham/Projects/mcd-nutrition/app/index.html",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/services/category-service.js",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_more-info.html",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/directives/search-bar.js",
+		"/Users/psham/Projects/mcd-nutrition/package.json",
+		"/Users/psham/Projects/mcd-nutrition/component.json",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_menu-header.html",
+		"/Users/psham/Projects/mcd-nutrition/app/views/tray.html",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/directives/dial.js",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_dial.html",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/controllers/prodMain.js",
+		"/Users/psham/Projects/mcd-nutrition/app/views/main.html",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/frontend/main.js",
+		"/Users/psham/Projects/mcd-nutrition/app/i18n/en-ca.json",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/directives/categories.js",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/frontend/plugins/jquery-knob/js/jquery.knob.js",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/directives/list-menu-item-added-to-tray.js",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/directives/more-info.js",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/directives/tray-clear-warning.js",
+		"/Users/psham/Projects/mcd-nutrition/app/components/angular/angular.js",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_menu-item-list-view.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_categories.html",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_categories.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_header.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_search-clear.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_callouts.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_menu-item-list-view-header.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_suggested.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/main.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_menu-item-basic-info.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_menu-item-general.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/frontend/plugins/jquery-knob/knob.jquery.json",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_coachmarks.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_classes.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_back-to-top.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_tray-full-warning.html",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_notes.html",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/directives/notes.js",
+		"/Users/psham/Projects/mcd-nutrition/README.md",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_tray.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_search-bar.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_help.scss",
+		"/Users/psham/Downloads/dep/tray.html",
+		"/Users/psham/Projects/mcd-nutrition/app/product.html",
+		"/Users/psham/Projects/mcd-nutrition/app/images/big_mac/1336914148155.jpg",
+		"/Users/psham/Downloads/www.mcdonalds.ca/ca/en/menu/full_menu/sandwiches/big_mac.html",
+		"/Users/psham/Downloads/www.mcdonalds.ca/ca/en.html",
+		"/Users/psham/Downloads/www.mcdonalds.ca/ca.html",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/directives/ingredients.js",
+		"/Users/psham/Projects/mcd-nutrition/app/components/nanoscroller/bin/css/nanoscroller.css",
+		"/Users/psham/Projects/mcd-nutrition/app/components/nanoscroller/bin/javascripts/jquery.nanoscroller.js",
+		"/Users/psham/Projects/mcd-nutrition/app/components/nanoscroller/bin/javascripts/jquery.nanoscroller.min.js",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_tray-clear-warning.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/directives/tray-full-warning.js",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_tray-full-warning.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/components/jquery/jquery.min.js",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/partials/_animations.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/styles/plugins/_perfect-scrollbar.scss",
+		"/Users/psham/Projects/mcd-nutrition/app/components/perfect-scrollbar/component.json",
+		"/Users/psham/Projects/mcd-nutrition/app/components/perfect-scrollbar/min/perfect-scrollbar.min.css",
+		"/Users/psham/Projects/mcd-nutrition/app/components/perfect-scrollbar/min/perfect-scrollbar.with-mousewheel.min.js",
+		"/Users/psham/Projects/mcd-nutrition/app/views/help.html",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/frontend/plugins/jquery.nutrition-carousel.js",
+		"/Users/psham/Projects/mcd-nutrition/app/components/jquery.cookie/jquery.cookie.js",
+		"/Users/psham/Projects/mcd-nutrition/app/components/jquery.cookie/cookie.jquery.json",
+		"/Users/psham/Projects/mcd-nutrition/app/components/angular-cookies/angular-cookies.min.js",
+		"/Users/psham/Projects/mcd-nutrition/app/scripts/services/meal-tray-service.js",
+		"/Users/psham/Projects/mcd-nutrition/app/views/_tray-item.html",
+		"/Users/psham/Downloads/ember.js-master/packages/ember/package.json",
+		"/Users/psham/Projects/mcd-nutrition/mcd-nutrition.sublime-project",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/scripts/frontend/main.js",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/scripts/controllers/main.js",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/styles/partials/back-to-top.scss",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/styles/partials/header.scss",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/styles/partials/callouts.scss",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/styles/partials/columns.scss",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/i18n/en-ca.json",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/styles/partials/menu-item-list-view-header.scss",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/views/main.html",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/styles/partials/categories.scss",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/styles/partials/side-nav.scss",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/styles/main.scss",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/styles/partials/menu-item-more-info.scss",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/views/_list-menu-item.html",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/views/_more-info.html",
+		"/Users/psham/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/psham/Library/Application Support/Sublime Text 2/Packages/Emmet/Default (OSX).sublime-keymap",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/styles/partials/menu-item-list-view.scss",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/views/_side-nav.html",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/styles/partials/menu-item-basic-info.scss",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/styles/partials/menu-item-general.scss",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/views/_ingredients.html",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/scripts/app.js",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/scripts/services/menuItemService.js",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/styles/partials/search-bar.scss",
+		"/Users/psham/Projects/mcd-framework/apps/nutrition/app/styles/partials/suggested.scss"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"1988",
+			"font-size",
+			"font-size:",
+			"0.3",
+			"0.1",
+			"0.3",
+			"visibility 0s linear 0.3s",
+			"max-width 0.3s ease-out",
+			"circle-blue",
+			"20px",
+			"40px",
+			"0.8",
+			", visibility 0s linear 0.3s",
+			"all",
+			"\n    ",
+			"float: right;",
+			"/",
+			"nano",
+			"sideNav",
+			"nano",
+			"wide",
+			"getMoreInfo",
+			"-long",
+			"ingredient-moreInformation-trigger",
+			"showTray",
+			"_parseMenuitem",
+			"showSideOrder",
+			"addToTray",
+			"showSideOrder",
+			"locale",
+			"p{",
+			"-title",
+			"title",
+			":hover",
+			"convertIdToTrayItem = ",
+			"convertIdToTrayItem",
+			"addToTray",
+			"setBy",
+			"i18n",
+			"menu-item-current-",
+			"menu-item-current-\n",
+			"menu-item-current-",
+			"Name",
+			"overflow-y",
+			"nutr-added-categories",
+			"nutr-added-subcategories",
+			"subcategories",
+			".results",
+			"sortBy = ",
+			"menuItem",
+			"sortBy",
+			"sortBy(",
+			"clear",
+			"happy meal",
+			"menuHeaderCurr",
+			"total",
+			"categories",
+			"display: none;",
+			"p{",
+			"menuCategories",
+			"searchDefaultText",
+			"class=\"container",
+			"inputVal",
+			"$input",
+			"ingredient-moreInformation-subingredients",
+			"getHappyMealDetails",
+			"getItemDetails",
+			"kGetHappyMeal",
+			"console.log",
+			"getHappyMealDetails",
+			"getItemDetails",
+			"getItemDetails\n",
+			"getItemDetails",
+			"$sideNav.data(",
+			"trayItems",
+			"<<<<<<<",
+			"getHappyMeal",
+			"happyMeal",
+			"$sideNav",
+			"sideNavPos",
+			"positionDetect",
+			"fill",
+			"filler",
+			"setBy",
+			"list-happymeal-item",
+			"main",
+			"menu",
+			"main",
+			"list-happymeal-item-option",
+			"chooseOption",
+			"Close",
+			"convertHappyMealToTrayItem",
+			"scope.trayItems",
+			"happyMeal",
+			"trayTotalPercent",
+			"origPos",
+			"sortBy",
+			"class",
+			"-descending",
+			"menu-item-current-descending",
+			"menuItems",
+			"newValue",
+			"getMoreInfo",
+			"menu-header",
+			"nutr-search-clear-visible",
+			"$compile",
+			"getMoreInfo",
+			"menu-search-clear",
+			"nutr-search-clear-action",
+			"(data-",
+			"data.category",
+			"CLASSFIXED",
+			".data(",
+			".sort(",
+			"overflow: auto",
+			".draw",
+			"speed",
+			"(this.o.tickOffset/2)",
+			"items",
+			"array",
+			":hover",
+			";hover",
+			"#6a5b5c",
+			"OPENCLASS",
+			"menu-item-open",
+			"$backToTop",
+			"$backToTOp",
+			"overlay-content"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\n  ",
+			"  ",
+			"img ng-src=\"{{",
+			"200047",
+			"					<p class=\"list-happymeal-item-option-image\">\n						<img src=\"http://placehold.it/54x54\" />\n					</p>",
+			"\"http://placehold.it/54x54\" />",
+			"h1>",
+			"+ (this.o.tickOffset/2)",
+			"#nutr_tray_actions{",
+			"#nutr_tray_list,",
+			"#nutr_tray_list{",
+			"index_files/",
+			"  ",
+			"index_files/",
+			"  ",
+			"index_files/",
+			"  ",
+			".nutr-tray-clear",
+			".nutr-tray-full",
+			"www1",
+			"nutr-",
+			"partials/",
+			"CLASSFIXED",
+			"main-navigation-show",
+			"'",
+			"if (",
+			") {",
+			"function (",
+			"{{menuItem.nutrition.carbohydrates}}",
+			"ddd",
+			"#dddddd",
+			"<a href=\"#\" class=\"ir\">",
+			"webfonts"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2849,
+								2843
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 633.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2041,
+								2041
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								301
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "ps_portfolio.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"main.j",
+				"js/main.js"
+			],
+			[
+				"app.",
+				"app/scripts/app.js"
+			],
+			[
+				"fr-ca",
+				"app/i18n/fr-ca.json"
+			],
+			[
+				"en-ca",
+				"app/i18n/en-ca.json"
+			],
+			[
+				"side-nav",
+				"app/styles/partials/_side-nav.scss"
+			],
+			[
+				"side-nav.html",
+				"app/views/_side-nav.html"
+			],
+			[
+				"main.js",
+				"app/scripts/frontend/main.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/mcd-ofyq-vagrant/mcd-ofyq-vagrant.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
