@@ -10,12 +10,12 @@ section{
   padding: 25px 0;
 }
 section.section-dark{
-  background-color: #5f6f90;
+  background-color: $ps-color-primary;
   text-align: center;
 }
 
 h1{
-  color: #b1e2f4;
+  color: $ps-color-secondary;
   text-shadow: 1px 1px 0 #231f20;
 }
 h2{
