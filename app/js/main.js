@@ -43,6 +43,12 @@
   $('.breakdown-circle').parent('li').on({
     mouseenter: blurSiblings,
     mouseleave: unblurSiblings
+
+  $('#logo').children('a').smoothScroll({
+    offset: -125
+  })
+  $('#main-nav').find('a').smoothScroll({
+    offset: -45
   });
 
   /* scrolling event bindings */
