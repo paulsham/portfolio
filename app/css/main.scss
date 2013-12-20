@@ -34,3 +34,6 @@ $ps-color-highlight: #6a230b;
 @media print {
   @import 'print';
 }
+@media only screen and (max-width:640px){
+  @import 'mobile';
+}
