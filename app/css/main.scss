@@ -10,12 +10,13 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 $ps-color-primary: #5f6f90;
 $ps-color-secondary: #b1e2f4;
 //$ps-color-highlight: #f89b6c;
-$ps-color-highlight: #600201;
+$ps-color-highlight: #6a230b;
 
 // @mixin ps-shadow(){
 
 // }
 @import 'compass/css3';
+@import "compass/typography/links/link-colors";
 //@import 'sass-bootstrap/lib/bootstrap';
 
 @import 'normalize';

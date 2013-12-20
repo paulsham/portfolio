@@ -1,5 +1,6 @@
 html{
   background-color: #fff;
+  color: #333;
 }
 
 h1, h2, h3, h4,
@@ -13,12 +14,51 @@ section.section-dark{
   background-color: $ps-color-primary;
   text-align: center;
 }
+a{
+  @include link-colors($ps-color-highlight, #333);
+}
 
 h1{
   color: $ps-color-secondary;
   text-shadow: 1px 1px 0 #231f20;
+  line-height: 1.3em;
 }
 h2{
   color: #fff;
   font-weight: normal;
+  line-height: 1.3em;
+}
+h3{
+  line-height: 1.5em;
+}
+.section-light h2{
+  color: $ps-color-primary;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+section{
+  h1, h2, h3, h4, p, ul, ol{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    @include box-sizing(border-box);
+  }
+  ul, ol{
+    padding-left: 18px;
+  }
+}
+.section-contentrich{
+  h1, h2, h3, h4, p, ul, ol{
+    max-width: 600px;
+  }
+}
+p.list-lead{
+  margin-bottom: 0;
+}
+ul.list-lead, ol.list-lead{
+  margin-top: 0;
+}
+.section-topborder{
+  border-top: 3px solid $ps-color-highlight;
 }
