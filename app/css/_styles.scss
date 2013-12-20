@@ -3,7 +3,7 @@ header{
   border-bottom: 3px solid $ps-color-highlight;
   overflow: hidden;
   position: relative;
-  padding-top: 20px;
+  height: 125px;
 }
 #logo{
   color: $ps-color-primary;
@@ -11,19 +11,15 @@ header{
   font-weight: bold;
   letter-spacing: -0.03em;
   line-height: 1em;
-  float: left;
-  height: 100px;
-  margin: 0 0 0 5%;
-  padding-top: 0;
-  @include transition(all 1s linear);
-/*
-  -webkit-transition: all 0.4s ease-out;
-     -moz-transition: all 0.4s ease-out;
-       -o-transition: all 0.4s ease-out;
-          transition: all 0.4s ease-out; */
+  position: absolute;
+  left: 2%;
+  bottom: 0%;
+  @include transform-origin(0%, 100%);
+  @include transition(all 0.1s ease-in);
   a{
     color: $ps-color-primary;
     text-decoration: none;
+    display: block;
   }
   .logo-expanded{
     display: inline-block;
@@ -34,18 +30,16 @@ header{
     max-width: 0;
     opacity: 0;
 
-    @include transition(max-width 0.4s ease-out, opacity 0.2s ease-out 0.2s, visibility 0s linear 0.3s);
+    @include transition(max-width 0.4s ease-out 0s, opacity 0.2s ease-out 0.2s, visibility 0s linear 0.3s);
   }
-  &:hover{
-    // font-size: 5em;
-    // line-height: 1.38em;
+  &:hover, &.hover{
 
     .logo-expanded{
       visibility: visible;
       max-width: 600px;
       opacity: 1;
 
-      @include transition(max-width 0.4s ease-out, opacity 0.2s ease-out)
+      @include transition(max-width 0.4s ease-out, opacity 0.2s ease-out);
     }
   }
 }
@@ -133,6 +127,6 @@ header{
 
 
 
-.color-lightblue{
+.color-secondary{
   color: $ps-color-secondary;
 }

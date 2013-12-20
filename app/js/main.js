@@ -12,7 +12,7 @@
   var addRemoveBodyScrollClass = function () {
     var $body = $('body');
     var bodyScrollClass = 'scrolled';
-    if(scrollPos.top > 0){
+    if(scrollPos.top > 85){
       $body.addClass(bodyScrollClass);
     }
     else{
@@ -20,6 +20,11 @@
     }
   };
 
+  /* time delay logo shrink */
+  // var initLoad = function () {
+  //   $('#logo').removeClass('hover');
+  // }
+  // var initLoadTimer = setTimeout(initLoad, 2000)
   /* blur siblings */
   var blurSiblings = function () {
     $(this).siblings('li').children().addClass('breakdown-circle-blur');
@@ -40,5 +45,8 @@
     mouseleave: unblurSiblings
   });
 
+  /* scrolling event bindings */
+  $(window).on('scroll', updateScrollPos);
+  $(window).on('scroll', addRemoveBodyScrollClass);
 
 }(window.jQuery));
