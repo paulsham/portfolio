@@ -77,45 +77,111 @@ header{
   font-size: 0.8em;
   min-height: 300px;
 }
-#intro-breakdown ul{
-  width: 800px;
+#breakdown-circle-wrapper{
+  position: relative;
+  min-width: 400px;
+  height: 300px;
   margin: 0 auto;
-  padding: 0;
 }
-#intro-breakdown li{
-  float: left;
-  display: block;
-  list-style: none;
-}
-.breakdown-circle{
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+#intro-breakdown dl{
+  display: table;
+  position: absolute;
+  top: 50%;
+  z-index: 50;
+  text-align: center;
 
-  -webkit-transition: all 0.3s ease-out;
-     -moz-transition: all 0.3s ease-out;
-       -o-transition: all 0.3s ease-out;
-          transition: all 0.3s ease-out;
+  &:hover{
+    z-index: 51;
+  }
+
+  dt{
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.1em;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  dd{
+    display: none;
+    margin: 0;
+  }
+  .breakdown-circle-description{
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 60%;
+    width: 100%;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+  }
+  &:hover{
+    .breakdown-circle{
+      @include scale(1.2);
+    }
+    .breakdown-circle-description{
+      opacity: 1;
+      visibility: visible;
+    }
+  }
 }
-#intro-breakdown li:hover .breakdown-circle{
-  -webkit-transform: scale(1.2);
-     -moz-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-       -o-transform: scale(1.2);
-          transform: scale(1.2);
+
+@mixin breakdown-circle-bg($color, $opacity) {
+  background-color: $color;
+  background-color: rgba($color, $opacity);
+}
+
+.breakdown-circle{
+  border-radius: 50%;
+  @include transition(transform 0.3s ease-out, opacity 0.4s ease-out);
+}
+#intro-breakdown dl{
+  .breakdown-circle{
+    @include breakdown-circle-bg($ps-color-primary, 0.8)
+  }
+  &:hover .breakdown-circle{
+    @include breakdown-circle-bg($ps-color-primary, 1)
+  }
+  .breakdown-circle-color-black{
+    @include breakdown-circle-bg(#333, 0.8)
+  }
+  &:hover .breakdown-circle-color-black{
+    @include breakdown-circle-bg(#333, 1)
+  }
+  .breakdown-circle-color-red{
+    @include breakdown-circle-bg($ps-color-highlight, 0.8)
+  }
+  &:hover .breakdown-circle-color-red{
+    @include breakdown-circle-bg($ps-color-highlight, 1)
+  }
+  .breakdown-circle-color-lightblue{
+    @include breakdown-circle-bg($ps-color-secondary, 0.8)
+  }
+  &:hover .breakdown-circle-color-lightblue{
+    @include breakdown-circle-bg($ps-color-secondary, 1)
+  }
 }
 .breakdown-circle-blur{
-  -webkit-filter: blur(3px);
-     -moz-filter: blur(3px);
-      -ms-filter: blur(3px);
-       -o-filter: blur(3px);
-          filter: blur(3px);
+  //@include filter(blur(1px));
   opacity: 0.8;
 }
+// #breakdown-circle-description{
+//   background-color: $ps-color-primary;
+//   color: #fff;
+//   text-align: center;
+//   padding: 10px 0;
+//   position: absolute;
+//   bottom: 0;
+//   @include transition(left 0.1s linear);
 
-.breakdown-circle-color-blue{
-  background-color: $ps-color-primary;
-}
+//   &.not-empty{
+//     max-height: 10000px;
+//   }
+//   p{
+//     padding: 25px;
+//   }
+// }
+
 
 
 .nav-horizontal li{
