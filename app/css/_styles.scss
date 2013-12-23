@@ -120,6 +120,7 @@ header{
       @include scale(1.2);
     }
     .breakdown-circle-description{
+      color: #333;
       opacity: 1;
       visibility: visible;
     }
@@ -158,6 +159,10 @@ header{
     @include breakdown-circle-bg($ps-color-secondary, 0.8)
   }
   &:hover .breakdown-circle-color-lightblue{
+    @include breakdown-circle-bg($ps-color-secondary, 1)
+  }
+  &:hover .breakdown-circle{
+    color: #333;
     @include breakdown-circle-bg($ps-color-secondary, 1)
   }
 }
