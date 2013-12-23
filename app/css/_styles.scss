@@ -182,7 +182,102 @@ header{
 //   }
 // }
 
+#portfolio{
+  overflow: auto;
+  h3{
+    border-bottom: 1px solid $ps-color-secondary;
+    width: 100%;
+    margin: 0 0 0.2em;
+    padding-bottom: 0.2em;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+  }
+  #portfolio-slider>ul{
+    margin: 0;
 
+    &>li{
+      display: block;
+      @include box-sizing(border-box);
+      padding: 0 80px;
+    }
+  }
+  .portfolio-images{
+    float: left;
+    width: 60%;
+    margin: 0;
+    li{
+      margin: 10px 0;
+    }
+    img{
+      width: 100%;
+      margin: 0 auto;
+
+      &.portfolio-image-narrow{
+        width: 75%;
+      }
+      &.portfolio-image-narrower{
+        width: 50%;
+      }
+    }
+  }
+  .portfolio-description{
+    float: right;
+    width: 40%;
+    p{
+      text-align: left;
+    }
+  }
+  .swipe {
+    overflow: hidden;
+    visibility: hidden;
+    position: relative;
+  }
+  .swipe-wrap {
+    overflow: hidden;
+    position: relative;
+  }
+  .swipe-wrap > li {
+    float:left;
+    width:100%;
+    position: relative;
+  }
+}
+#portfolio .portfolio-nav{
+  background-color: $ps-color-highlight;
+  background-image: url(../img/portfolio-nav.png);
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 50%;
+
+  @include transition(all 0.2s ease-in);
+}
+#portfolio-prev{
+  background-position: 0 0;
+  @include border-radius(50%);
+  right: 100%;
+}
+#portfolio-next{
+  background-position: -50px 0;
+  @include border-radius(50%);
+  left: 100%;
+}
+#portfolio .portfolio-nav-disable{
+  background-color: #333;
+  cursor: default;
+  opacity: 0.2;
+}
+.section-portfolio{
+  #portfolio-prev{
+    margin-right: -70px;
+  }
+  #portfolio-next{
+    margin-left: -70px;
+  }
+}
 
 .nav-horizontal li{
   display: inline;
@@ -190,7 +285,6 @@ header{
 .nav-horizontal a{
   display: inline-block;
 }
-
 
 
 .color-secondary{

@@ -3,14 +3,16 @@
 (function ($) {
 
   /* scrolling */
-  var scrollPos = []
+  var scrollPos = [];
+  var $body = $('body');
+  var $portfolio = $('#portfolio');
+
   var updateScrollPos = function () {
     var $window = $(window);
     scrollPos.top = $window.scrollTop();
     scrollPos.left = $window.scrollLeft();
   };
   var addRemoveBodyScrollClass = function () {
-    var $body = $('body');
     var bodyScrollClass = 'scrolled';
     if(scrollPos.top > 85){
       $body.addClass(bodyScrollClass);
@@ -19,6 +21,19 @@
       $body.removeClass(bodyScrollClass);
     }
   };
+  var showHidePortfolioArrows = function () {
+    var portfolioPos = [];
+    portfolioPos.top = $portfolio.offset().top;
+    portfolioPos.bottom = portfolioPos.top + $portfolio.innerHeight();
+    portfolioPos.offset = $(window).height() / 3;
+
+    if(scrollPos.top > portfolioPos.top - portfolioPos.offset && scrollPos.top < portfolioPos.bottom - portfolioPos.offset * 2){
+      $body.addClass('section-portfolio');
+    }
+    else{
+      $body.removeClass('section-portfolio');
+    }
+  }
 
   /* time delay logo shrink */
   // var initLoad = function () {
@@ -93,5 +108,45 @@
   /* scrolling event bindings */
   $(window).on('scroll', updateScrollPos);
   $(window).on('scroll', addRemoveBodyScrollClass);
+  $(window).on('scroll', showHidePortfolioArrows);
+  window.portfolioSwipe = Swipe(document.getElementById('portfolio-slider'),{
+    callback: function(index, elem) {enableDisablePortfolioNav();
+    }
+  });
+  var scrollToPortfolio = function () {
+    $.smoothScroll({
+      scrollTarget: '#portfolio'
+    });
+  };
+  var portfolioSwipeNav = function () {
+    if($(this).hasClass('portfolio-nav-disable')){
+      return false;
+    }
+    if(this.id == 'portfolio-prev'){
+      portfolioSwipe.prev();
+      scrollToPortfolio();
+    }
+    else if(this.id == 'portfolio-next'){
+      portfolioSwipe.next();
+      scrollToPortfolio();
+    }
+  };
+  var enableDisablePortfolioNav = function () {
+    if(portfolioSwipe.getPos() == 0){
+      $('#portfolio-prev').addClass('portfolio-nav-disable');
+    }
+    else{
+      $('#portfolio-prev').removeClass('portfolio-nav-disable');
+    }
+    /* getNumPos not working, fork and include? */
+    if(portfolioSwipe.getPos() == portfolioSwipe.getNumSlides() - 1){
+      $('#portfolio-next').addClass('portfolio-nav-disable');
+    }
+    else{
+      $('#portfolio-next').removeClass('portfolio-nav-disable');
+    }
+  }
+  $('.portfolio-nav').on('click', portfolioSwipeNav);
+
 
 }(window.jQuery));

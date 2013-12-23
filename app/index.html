@@ -104,13 +104,70 @@
     </section>
 
     <section id="portfolio" class="section-dark">
-      <ul>
-        <li>Our Food. Your Questions.</li>
-        <li>McDonald's Nutrition Centre</li>
-        <li>Canadian Tire Digital Catalogue</li>
-        <li>3DX</li>
-        <li>Gestational Diabetes Learning Module</li>
-      </ul>
+      <h2>My portfolio</h2>
+      <div id="portfolio-slider" class="swipe">
+        <ul class="swipe-wrap">
+          <li>
+            <h3>McDonald's Our Food. Your Questions.</h3>
+            <div class="portfolio-description">
+              <p>McDonald’s wanted to be transparent about the quality of their food. Our Food. Your Questions invites people to ask McDonald’s any food-related questions. This transformative platform won many awards, including Webby Awards, Cannes Lions, and One Show Interactive Pencils.</p>
+              <p>Our team developed the platform using Node.JS, Express and MongoDB to create both the public facing and administrative parts of the platform. The technologies provided us with the speed and flexibility to develop alongside the creative iteration and the evolving idea.</p>
+              <p>I was in charge of the front-end development but became more involved with the server side API as I became more comfortable with the technologies. Jumping feet first into such new technologies was a challenge, but Our Food Your Questions is the project I am most proud of because I proved my ability to learn a new technology in a high-pressure situation.</p>
+            </div>
+            <ul class="portfolio-images">
+              <li><img src="img/portfolio/ofyq-01.jpg" alt="Our Food Your Questions landing page"></li>
+              <li><img src="img/portfolio/ofyq-02-image.jpg" alt="Expanded answer in Our Food Your Questions"></li>
+            </ul>
+          </li>
+          <li>
+            <h3>"The Canadian Way"</h3>
+            <div class="portfolio-description">
+              <p>Canadian Tire was looking to revitalize their catalogue for the digital age. Instead of simply translating a catalogue to the Internet, “The Canadian Way” provides an interactive experience to tell engaging Canadian stories and demonstrate product.</p>
+              <p><strong>Development Challenges</strong><br />Our team needed to develop the catalogue platform and the interactive catalogue content. My role was to help architect the platform and develop the content that involved HTML5 video. Being a browser-based experience, we needed to balance memory limitations of browsers with high resolution content by dynamically loading and unloading assets. Working with interactive video content, I needed to develop the experiences to account for differences in how desktop and tablet browsers handle interactions with HTML5 video.</p>
+              <p><strong>User Experience Audit and Prototype</strong><br />After “The Canadian Way” launched, our team conducted a user experience audit to improve it. I created a prototype to observe how users’ interactions. We were able to recommend enhancements to the user experience and test these recommendations with the prototype.</p>
+            </div>
+            <ul class="portfolio-images">
+              <li><img src="img/portfolio/ctdc-01-cover.jpg" alt=""></li>
+              <li><img src="img/portfolio/ctdc-19-countertops2.jpg" alt=""></li>
+            </ul>
+          </li>
+          <li>
+            <h3>McDonald's Nutrition Centre</h3>
+            <div class="portfolio-description">
+              <p>Our goal for updating McDonald’s Nutrition Centre was to create a world-class experience that allowed people to truly understand their eating decisions. Our team researched best practices to display nutrition, but found no cohesive examples.</p>
+              <p>Rather than approach nutrition as simply presenting information, we focused more on the app that would allow users to understand the data and interact with it in a meaningful way. To build this, we used AngularJS to deliver a dynamic application, which included detailed nutrition information of McDonald’s food and the ability to create meals.</p>
+            </div>
+            <ul class="portfolio-images">
+              <li><img src="img/portfolio/mcd-nutr-01.jpg" alt="An expanded product category in the McDonald's Nutrition Centre"></li>
+              <li><img src="img/portfolio/mcd-nutr-02-tray.jpg" alt="Meal tray in the McDonald's Nutrition Centre"></li>
+            </ul>
+          </li>
+          <li>
+            <h3>Canadian Tire Spirit Tree</h3>
+            <div class="portfolio-description">
+              <p>The Christmas Spirit Tree was a Christmas tree that showed Canadians’ Christmas spirit across social media platforms. The tree’s lights would react to social media activity and keywords. It became a beautiful integration of creative and technology.</p>
+              <p>My role on this project was the development of the desktop and mobile websites. This included dynamic visuals based on the social media API,  a live video feed of the tree and allowing users to post messages to the tree. I am proud of how well the website turned out based on the creative design.</p>
+            </div>
+            <ul class="portfolio-images">
+              <li><img src="img/portfolio/ct-spirittree-01-desktop.jpg" alt="" class="portfolio-image-narrow"></li>
+              <li><img src="img/portfolio/ct-spirittree-02-mobile.jpg" alt="" class="portfolio-image-narrower"></li>
+            </ul>
+          </li>
+          <li>
+            <h3>3DX</h3>
+            <div class="portfolio-description">
+              <p>The 3DX application displays cross-sectional anatomy with corresponding 3D models of the body. As a design consultant on this project, I provided recommendations to improve the application and students' experience. For example, one of my recommendations was a superior/inferior slider to give students more granular controls of the viewing experience.
+              </p>
+              <p>Based on user testing of this application, students were able to gain a deeper understanding of the material.</p>
+            </div>
+            <ul class="portfolio-images">
+              <li><img src="img/portfolio/3dx.jpg" alt="3DX application"></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div id="portfolio-prev" class="portfolio-nav ir portfolio-nav-disable">Prev</div>
+      <div id="portfolio-next" class="portfolio-nav ir">Next</div>
     </section>
 
     <section id="contact-breakdown" class="section-contentrich section-topborder">
@@ -130,6 +187,7 @@
     <!-- bower:js -->
     <script src="js/lib/jquery/jquery.js"></script>
     <script src="js/lib/jquery.smooth-scroll/jquery.smooth-scroll.js"></script>
+    <script src="js/lib/swipe/swipe.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
