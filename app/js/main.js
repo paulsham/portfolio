@@ -98,17 +98,19 @@
     //mousedown: showDescription
   });
 
+  $('a[href^="#"]').smoothScroll({
+    offset: -45
+  });
   $('#logo').children('a').smoothScroll({
     offset: -125
-  })
-  $('#main-nav').find('a').smoothScroll({
-    offset: -45
   });
 
   /* scrolling event bindings */
   $(window).on('scroll', updateScrollPos);
   $(window).on('scroll', addRemoveBodyScrollClass);
   $(window).on('scroll', showHidePortfolioArrows);
+  $(window).trigger('scroll');
+
   window.portfolioSwipe = Swipe(document.getElementById('portfolio-slider'),{
     callback: function(index, elem) {enableDisablePortfolioNav();
     }
