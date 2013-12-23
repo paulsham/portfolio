@@ -284,14 +284,37 @@ header{
   }
 }
 
-.nav-horizontal li{
-  display: inline;
-}
-.nav-horizontal a{
-  display: inline-block;
+.nav-horizontal{
+  ul{
+    padding-left: 0;
+  }
+  li{
+    display: inline;
+  }
+  a{
+    display: inline-block;
+  }
 }
 
 
 .color-secondary{
   color: $ps-color-secondary;
+}
+.social{
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+#social-twitter{
+  background-image: url(../img/social/twitter.png);
+}
+#social-linkedin{
+  background-image: url(../img/social/linkedin.png);
+}
+#social-github{
+  background-image: url(../img/social/github.png);
+}
+#social-stackoverflow{
+  background-image: url(../img/social/stackoverflow.png);
 }
