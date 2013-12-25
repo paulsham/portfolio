@@ -283,7 +283,43 @@ header{
     margin-left: -70px;
   }
 }
+#portfolio{
+  #portfolio-pagination{
+    background-color: $ps-color-highlight;
+    @include box-sizing(border-box);
+    @include border-radius(18px);
+    width: auto;
+    height: 36px;
+    padding: 10px 15px;
+    position: fixed;
+    top: 100%;
+    left: 50%;
+    margin-left: -65px;
+    @include transition(all 0.2s ease-in);
 
+    li{
+      margin-left: 0.4em;
+    }
+    li:first-child{
+      margin-left: 0;
+    }
+
+    a{
+      background-color: #fff;
+      width: 15px;
+      height: 15px;
+      @include border-radius(50%);
+    }
+    .portfolio-pagination-current{
+      background-color: $ps-color-secondary;
+    }
+  }
+}
+.section-portfolio{
+  #portfolio-pagination{
+    margin-top: -50px;
+  }
+}
 .nav-horizontal{
   ul{
     padding-left: 0;
