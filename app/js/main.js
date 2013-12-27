@@ -153,6 +153,14 @@
   };
   // END portfolio functions
 
+  // START analytics functions
+
+  var gaEventTracking = function (e) {
+    _gaq.push(['_trackEvent', 'Navigate', 'Internal Link', e.target.hash]);
+  };
+
+  // END analytics functions
+
   $('a[href^="#"]').smoothScroll({
     offset: -45
   });
@@ -176,6 +184,9 @@
   // portfolio - event bindings
   createPortfolioPagination();
   $('.portfolio-nav').on('click', portfolioSwipeNav);
+
+  // analytics
+  $('a[href^="#"]').on('click', gaEventTracking);
 
 
 }(window.jQuery));
