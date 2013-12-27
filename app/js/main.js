@@ -112,6 +112,7 @@
   window.portfolioSwipe = Swipe(document.getElementById('portfolio-slider'),{
     callback: function(index, elem) {
       setPortfolioNav(index);
+      gaEventTracking(elem);
     }
   });
   var createPortfolioPagination = function () {
@@ -156,11 +157,16 @@
   // START analytics functions
 
   var gaEventTracking = function (e) {
-    if(e.target.hash){
-      ga('send', 'event', 'Navigate', 'Click', 'Internal Link', e.target.hash);
+    if(e.target){
+      if(e.target.hash){
+        ga('send', 'event', 'Link', 'Click', 'Internal Link', e.target.hash);
+      }
+      else{
+        ga('send', 'event', 'Link', 'Click', 'Tracked Link', e.target.pathname);
+      }
     }
     else{
-      ga('send', 'event', 'Navigate', 'Click', 'Tracked Link', e.target.pathname);
+      ga('send', 'event', 'Portfolio', 'Click', 'Navigate', e.getAttribute('data-index'));
     }
   };
 
