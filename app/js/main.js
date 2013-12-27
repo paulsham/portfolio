@@ -156,7 +156,12 @@
   // START analytics functions
 
   var gaEventTracking = function (e) {
-    _gaq.push(['_trackEvent', 'Navigate', 'Internal Link', e.target.hash]);
+    if(e.target.hash){
+      ga('send', 'event', 'Navigate', 'Click', 'Internal Link', e.target.hash);
+    }
+    else{
+      ga('send', 'event', 'Navigate', 'Click', 'Tracked Link', e.target.pathname);
+    }
   };
 
   // END analytics functions
@@ -186,7 +191,7 @@
   $('.portfolio-nav').on('click', portfolioSwipeNav);
 
   // analytics
-  $('a[href^="#"]').on('click', gaEventTracking);
+  $('a[href^="#"], a.eventTrack').on('click', gaEventTracking);
 
 
 }(window.jQuery));
