@@ -159,14 +159,14 @@
   var gaEventTracking = function (e) {
     if(e.target){
       if(e.target.hash){
-        ga('send', 'event', 'Link', 'Click', 'Internal Link', e.target.hash);
+        ga('send', 'event', 'Link', 'Click', e.target.hash);
       }
       else{
-        ga('send', 'event', 'Link', 'Click', 'Tracked Link', e.target.pathname);
+        ga('send', 'event', 'Link', 'Click', e.target.pathname);
       }
     }
     else{
-      ga('send', 'event', 'Portfolio', 'Click', 'Navigate', e.getAttribute('data-index'));
+      ga('send', 'event', 'Portfolio', 'Click', e.getAttribute('data-index'));
     }
   };
 
